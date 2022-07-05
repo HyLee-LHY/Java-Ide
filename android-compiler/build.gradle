@@ -23,5 +23,6 @@ dependencies {
 	implementation 'io.github.itsaky:nb-javac-android:17.0.0.1'
 	implementation project(path: ':common')
 	implementation project(path: ':project-creator')
+	implementation project(':kotlinc')
 	compileOnly files('libs/android-stubs.jar')
 }
